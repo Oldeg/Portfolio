@@ -1,0 +1,36 @@
+.footerBox {
+    background-color: lightgreen;
+    min-height: 50vh;
+    padding: 50px 0;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.name {
+background-color: cornflowerblue;
+}
+
+.linksBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width:280px;
+}
+
+.link {
+    background-color: cornflowerblue;
+    width: 60px;
+    height: 60px;
+
+}
+
+.rights {
+    background-color: cornflowerblue;
+    margin-top: 20px;
+}

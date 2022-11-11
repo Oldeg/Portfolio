@@ -1,0 +1,9 @@
+.header {
+    background-color: cadetblue;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
