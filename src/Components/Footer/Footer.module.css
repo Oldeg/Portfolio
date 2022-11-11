@@ -1,6 +1,5 @@
 .footerBox {
     background-color: lightgreen;
-    min-height: 50vh;
     padding: 50px 0;
 }
 
@@ -11,7 +10,7 @@
 }
 
 .name {
-background-color: cornflowerblue;
+    background-color: cornflowerblue;
 }
 
 .linksBox {
@@ -20,7 +19,7 @@ background-color: cornflowerblue;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    width:280px;
+    width: 280px;
 }
 
 .link {

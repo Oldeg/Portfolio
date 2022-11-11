@@ -1,25 +1,30 @@
 .contactsBox {
     background-color: khaki;
-    min-height: 100vh;
+
     padding: 50px 0;
 }
+
 .contactsContainer {
     display: flex;
     flex-direction: column;
 
 }
-.title{
+
+.title {
     background-color: #ec8585;
 }
+
 .form {
     display: flex;
     flex-direction: column;
-    border: 1px solid;
     width: 250px;
-}
-.text{
     margin-top: 10px;
 }
+
+.text {
+    margin-top: 10px;
+}
+
 .button {
     background-color: #ec8585;
     text-decoration: none;
@@ -27,10 +32,11 @@
     justify-content: center;
     align-items: center;
     color: black;
-    margin-top:10px;
+    margin-top: 10px;
     width: 120px;
     height: 30px;
 }
+
 .input {
     margin-top: 10px;
 }
