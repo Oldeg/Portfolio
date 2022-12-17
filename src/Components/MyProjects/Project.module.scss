@@ -1,0 +1,79 @@
+@import "src/common/styles/sass/variables";
+.project {
+  background-color: $bcSecondColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 250px;
+  margin-top: 10px;
+  border-radius: 10px 10px;
+  color: $mainColor;
+
+  .projectImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bcSecondColor;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    .button {
+      width: 80px;
+      text-decoration: none;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      color: $mainColor;
+      &:hover{
+        color: $primaryColor;
+        transition: 0.3s;
+      }
+    }
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: black;
+      border-radius: 10px 10px 0 0 ;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      opacity: 0.4;
+    }
+  }
+
+  .projectInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .projectTitle {
+      font-size: 21px;
+      margin-bottom: 20px;
+      font-family: $secondaryFontFamily;
+    }
+
+    .description {
+      text-align: center;
+      color: $textColor;
+
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

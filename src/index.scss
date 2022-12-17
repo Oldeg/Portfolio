@@ -1,0 +1,18 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
+body {
+    width: 100%;
+    @include text($mainFontFamily, 18px, 30px,$textColor );
+    letter-spacing: 0;
+    font-weight: 400;
+    background-image: url("../src/assets/image/1.jpg");
+    @media screen and (max-width:1600px) {
+        font-size: 16px;
+    }
+}
+footer {
+    background-image: url("../src/assets/image/1.jpg");
+}
+header {
+    background-image: url("../src/assets/image/1.jpg");
+}
