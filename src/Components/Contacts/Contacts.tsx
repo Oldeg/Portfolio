@@ -9,9 +9,9 @@ export const Contacts = () => {
             <div className={`${styleContainer.container} ${s.contactsContainer}`}>
                 <Title text={'Contacts'}/>
                 <form className={s.form}>
-                    <input type="text"/>
-                    <input type="text" className={s.input}/>
-                    <textarea className={s.text}></textarea>
+                    <input type="text" className={s.input} placeholder={'Your Name'}/>
+                    <input type="text" className={s.input} placeholder={'Your Email'}/>
+                    <textarea className={s.text} placeholder={'Write your message here'}></textarea>
                     <button className={s.button} type='submit' >Send</button>
                 </form>
 
