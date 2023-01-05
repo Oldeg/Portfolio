@@ -1,0 +1,45 @@
+@import "../../styles/sass/mixins";
+@import "../../styles/sass/variables";
+.btn {
+  color: white;
+  width: 175.58px;
+  height: 60px;
+  border: none;
+  background-color: $primaryColor;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover span{
+    color: #000;
+  }
+  span {
+    position: relative;
+    z-index: 2;
+    @include text($secondaryFontFamily, 16px,1.2,$mainColor);
+  }
+  &::before {
+    position: absolute;
+    content: "";
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    top: -10px;
+    background-color: #fff;
+    transform: translateY(100%);
+    transition: all .3s ease;
+  }
+  &:hover {
+    &::before{
+      transform: translateY(0);
+    }
+
+  }
+
+
+}

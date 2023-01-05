@@ -31,8 +31,8 @@
       h3 {
         font-size: 100px;
         font-family: $secondaryFontFamily;
-        margin-bottom: 25px;
-        line-height: 1.1;
+        margin-bottom: 14px;
+        line-height: 1.3;
         @media screen and (max-width: 414px) {
           margin-bottom: 0;
         }
@@ -54,7 +54,7 @@
         font-size: 20px;
         font-family: $mainFontFamily;
         font-weight: 700;
-        margin-top: 30px;
+        margin-bottom: 35px;
       }
 
       @media screen and (max-width: 755px) {

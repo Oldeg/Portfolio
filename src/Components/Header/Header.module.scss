@@ -3,9 +3,13 @@
 
     height: 80px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     background-color: rgba(0 0 0 /25%);
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    right: 0;
 
 
 }

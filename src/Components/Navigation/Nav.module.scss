@@ -1,19 +1,29 @@
 @import 'src/common/styles/sass/variables';
+
 .nav {
   width: 300px;
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  right: 0;
-
+  flex-wrap: nowrap;
+  align-items: stretch;
+  margin-right: 10%;
   .link {
     text-decoration: none;
     color: #ffffff;
-    transition: .3s ;
+    transition: .3s;
     font-family: $secondaryFontFamily;
+    cursor: pointer;
 
+    &:hover {
+      color: $primaryColor;
+    }
   }
-  .link:hover {
-    color: $primaryColor
+
+  .active {
+    color: $primaryColor;
+  }
+
+  @media screen and (max-width: 400px) {
+    display: none;
   }
 }

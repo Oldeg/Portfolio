@@ -1,4 +1,6 @@
 @import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixins";
+@import "../../common/components/Button/Button.module";
 .contactsBox {
   padding: 50px 0;
 
@@ -16,6 +18,7 @@
       @media screen and (max-width: 521px) {
         width: 300px;
       }
+
       input, textarea {
         width: 100%;
         border-radius: 5px;
@@ -25,36 +28,27 @@
         font-family: $mainFontFamily;
         font-size: 16px;
       }
+
       .text {
         margin-top: 10px;
         background-color: transparent;
-        border: 1px solid rgba(255,255,255,.3);
+        border: 1px solid rgba(255, 255, 255, .3);
         max-width: 400px;
         min-height: 100px;
         padding: 16px 30px 30px 30px;
       }
 
       button {
+        @extend .btn;
         margin-top: 10px;
-        color: white;
-        width: 120px;
-        height: 30px;
-        border: none;
-        background-color: $primaryColor;
-        font-size: 16px;
-        cursor: pointer;
-        border-radius: 5px;
       }
-      button:hover{
-        transition: .3s;
-        background-color: white;
-        color: black;
-      }
+
+
 
       .input {
         margin-top: 10px;
         background-color: transparent;
-        border: 1px solid rgba(255,255,255,.3);
+        border: 1px solid rgba(255, 255, 255, .3);
 
       }
 

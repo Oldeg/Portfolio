@@ -10,7 +10,7 @@ import {Contacts} from "./Components/Contacts/Contacts";
 
 function App() {
     return (
-        <div className={s.App}>
+        <div className={s.App} >
             <Header/>
             <Main/>
             <Skills/>
